@@ -1,0 +1,47 @@
+.user-components {
+  justify-content: space-between;
+}
+
+.user-components,
+.user-components__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-components__img {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.user-components__img-xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-components__img-sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 22px;
+}
+
+.user-components__title {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.friends-birthday {
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.friends-birthday-check {
+  margin: 15px 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.birthday-text {
+  font-weight: 500;
+  font-size: 20px;
+}
