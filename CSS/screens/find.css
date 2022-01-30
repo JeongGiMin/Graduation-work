@@ -1,0 +1,33 @@
+.recommend {
+  margin-top: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.recommend > span {
+  color: var(--gray);
+}
+
+.recommend-friends {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.recommend-friend {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.recommend-friend span {
+  margin: 10px 0px;
+}
+
+.recommend-friend:last-child span {
+  padding-right: 20px;
+}

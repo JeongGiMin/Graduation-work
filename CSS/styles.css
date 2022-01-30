@@ -5,11 +5,15 @@
 @import "components/status-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
+@import "components/nav.css";
+@import "components/dot.css";
+@import "components/icons.css";
 
 /*screen*/
 @import "screens/login.css";
-@import "screens/nav.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
