@@ -1,0 +1,31 @@
+.suggestions {
+  margin-top: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 30px;
+}
+
+.suggestions-text {
+  font-size: 20px;
+}
+
+.suggestions-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestions-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.suggestions-column img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.width {
+  width: 96.8%;
+}

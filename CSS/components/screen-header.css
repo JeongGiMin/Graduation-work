@@ -3,7 +3,7 @@
   position: relative;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 0;
+  margin: 25px 0;
   font-size: 20px;
 }
 
@@ -14,5 +14,22 @@
 }
 
 .screen-header__column i {
-  margin-right: 25px;
+  margin: 0 10px;
+}
+
+.screen-header__column a {
+  color: black;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__column .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
 }
